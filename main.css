@@ -45,20 +45,68 @@ General
 body {
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
-  background-color:hsl(13, 100%, 72%);
   width: 100%;
   height: 100vh;
 }
 
-.container 
+.container {
+
+}
 
 /* ******************* 
 Nav
 ******************* */
-.nav {
-  
+#header {
+  background: url(images/bg-pattern-intro.svg);
+  background-color:hsl(13, 100%, 72%);
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-position: 33% 30%;
+  border-bottom-left-radius: 100px;
+  height: 600px;
+  width: 100%;
+  text-align: center;
 }
 
-.logo {
-  
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px 0 100px 0;
+  width: 300px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.header-content {
+  color:hsl(0, 0%, 100%);
+  font-family: 'Overpass', sans-serif;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.header-content h4 {
+  font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  background: rgba(255, 255, 255,0);
+  border: 1px solid #fff;
+  border-radius: 25px;
+  color:hsl(0, 0%, 100%);
+  cursor: pointer;
+  width: 115px;
+  padding: 10px 10px;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.btn:hover {
+  background:hsl(0, 0%, 100%);
+  color:hsl(356, 100%, 66%);
 }

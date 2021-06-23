@@ -57,6 +57,20 @@ body {
   height: 100vh;
 }
 
+h2 {
+  width: 200px;
+  margin: 50px auto 20px auto;
+}
+
+
+p {
+  color:hsl(240, 10%, 16%);
+  font-size: 0.9rem;
+  line-height: 25px;
+  width: 273px;
+  margin: 0 auto;
+}
+
 .container {
 
 }
@@ -142,19 +156,6 @@ Top
   width: 300px;
 }
 
-.top-content h2 {
-  width: 200px;
-  margin: 50px auto 20px auto;
-}
-
-.top-content p {
-  color:hsl(240, 10%, 16%);
-  font-size: 0.9rem;
-  line-height: 25px;
-  width: 273px;
-  margin: 0 auto;
-}
-
 /* ******************* 
 Main: 
 Mid
@@ -197,4 +198,18 @@ Mid
   color:hsl(240, 2%, 79%);
   width: 232px;
   margin: 0 auto;
+}
+
+/* ******************* 
+Main: 
+Bottom
+******************* */
+.bottom img {
+  width: 400px;
+}
+
+.bottom-content {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  color:hsl(208, 49%, 24%);
 }
